@@ -1,0 +1,22 @@
+Algoritmo Bar_condicional
+	Definir i, edad, acum, cont Como Entero
+	acum=0
+	cont=0
+	para i = 1 hasta 4 con paso 1 Hacer
+		Mostrar "Ingrese la edad de la persona que desea ingresar"
+		leer edad
+		Si edad <= 17 Entonces
+			Mostrar "Valla pa la casa"
+		SiNo
+			si edad >= 18 Entonces
+				Mostrar "A Bailar!"
+				
+				cont= cont+1
+				acum= acum+edad
+			FinSi
+		FinSi
+	FinPara
+	Mostrar "La cantidad de personas ingresadas al bar es: " , cont
+	Mostrar "El promedio de la edad de las personas que ingresaron es, " acum/cont " años "
+	
+FinAlgoritmo

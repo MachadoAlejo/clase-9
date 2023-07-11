@@ -1,0 +1,10 @@
+Algoritmo bar
+	Definir edad,i como entero
+	para i = 1 hasta 5 con paso 1 Hacer
+		Mostrar "Ingresa la edad: "
+		leer edad
+		Mostrar "La edad es: "
+		
+	FinPara
+	
+FinAlgoritmo

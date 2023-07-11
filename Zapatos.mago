@@ -1,0 +1,15 @@
+Algoritmo Zapatos
+	Definir i Como Entero
+	Definir nombre,marca Como Caracter
+	
+	Para i = 1 Hasta 3 con paso 1 Hacer
+		
+		Mostrar "ingresar nombre de la persona # " , i
+		leer nombre
+		Mostrar "ingresar la marca de los zapatos de " nombre
+		leer marca
+		
+		Mostrar "La marca de los zapatos de " , nombre " es " , marca
+	FinPara
+	
+FinAlgoritmo
